@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Cargar el modelo desde la ruta especificada
-MODEL_PATH = 'models\best_model.pkl'
+MODEL_PATH = 'models/best_model.pkl'
 best_model = joblib.load(MODEL_PATH)
 
 # Título de la aplicación
